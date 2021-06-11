@@ -1,12 +1,21 @@
 {
   "name": "cloudflare-worker-graphql-subscriptions",
   "version": "1.0.0",
-  "description": "Minimal example templae for a graphql subsscription working with WebSocketPair in Cloudflare Workers.",
+  "description": "Minimal example template for graphql subscriptions with WebSocketPair in Cloudflare Workers.",
   "main": "dist/worker.js",
   "repository": "https://jfabraxas@github.com/jfabraxas/cloudflare-worker-graphql-subscriptions.git",
   "author": "jfa <git@jonathanallenberg.de>",
+  "keywords": [
+    "graphql",
+    "subscriptions",
+    "websocket",
+    "websockets",
+    "cloudflare",
+    "workers",
+    "cfw",
+    "typescript"
+  ],
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "webpack"
   },
