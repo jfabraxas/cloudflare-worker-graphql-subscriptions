@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/out-tsc",
+    "module": "commonjs",
+    "lib": ["esnext", "webworker"],
+    "target": "esnext",
+    "alwaysStrict": true,
+    "allowJs": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["@cloudflare/workers-types"]
+  },
+  "exclude": ["**/*.spec.ts"],
+  "include": ["**/*.ts"]
+}
